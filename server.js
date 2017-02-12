@@ -186,13 +186,7 @@ app.post('/login',function(req,res){
  
         
 });
-app.get('/zeus-login',function(){
-    
-            pool.query('SELECT * FROM zeus WHERE username ');
-            
-    
-    
-});
+
 app.get('/check-login', function (req, res) {
    if (req.session && req.session.auth && req.session.auth.userId) {
        // Load the user object
