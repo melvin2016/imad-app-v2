@@ -1,18 +1,66 @@
 <!doctype html>
 <html>
     <head>
-        <link href="/ui/style.css" rel="stylesheet" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <title>Home | Meak Inc.</title>
+        <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Baloo+Bhai|Lalezar|Lato|Oswald" rel="stylesheet">
+
+        <link type="text/css" href="/ui/style.css" rel="stylesheet" />
+        <meta name="viewport" content="width=device-width, initial-sacle=1">
+
+
     </head>
+
     <body>
-        <div class="center">
-            <img src="/ui/madi.png" class="img-medium"/>
+         <div class="links">
+              <ul id="ul_nav">
+                <li><a class="active" href="/"><img src="http://findicons.com/files/icons/1580/devine_icons_part_2/128/home.png" alt="Home"> Home</a></li>
+                <li><a href="/articles/profile"><img src="https://maxcdn.icons8.com/Share/icon/Users//user_male_circle_filled1600.png" alt="Profile"> Profile</a></li>
+                <li><a href="/articles/my-articles"><img src="http://www.housingeurope.eu/site/theme/_assets/img/type-article.png" alt="Works">Articles</a></li>
+                <li ><a  href="/articles/vision"><img src="http://www.pngall.com/wp-content/uploads/2016/05/Vision-Free-Download-PNG.png" alt="vision">VISION</a></li>
+                <span id="userAndPass" >
+                    <li><input type="text" id="username" placeholder="Username"></li>
+                    <li><input type="password" id="password" placeholder="Password"></li>
+                </span>
+                <li><span id="loginArea" style="color:green"><input type="submit" id="submit_form" Value="Login "></span> </li>
+                <li><span id="logoutArea" ><input type="submit" id="register_user" value="Or Register !"></span></li>
+                
+              </ul>
+            </div>
+
+        <div class="container">
+           
+                <div class="center">
+                    <img  src="/ui/me1.jpg" id="meak" class="img-medium"/>
+                </div>
+
+
+                <br>
+
+                <h1>Home<hr></h1>
+                <div class="center text-big bold" id="myCont">
+                  <span style="color:rgb(156, 168, 80);">Hi ! Welcome To Meak Studios !</span><br><br><br><br>
+
+
+                </div>
+                <div id="opinionBox">
+                    
+                    
+                </div>
+                
         </div>
-        <br>
-        <div class="center text-big bold">
-            Hi! I am your webapp.
-            <img src="/ui/Desert.jpg" alt="gfh">
-        </div>
-        <script type="text/javascript" src="/ui/main.js">
-        </script>
+
+
+
+        <footer>
+          <p>
+            <p style="color:#ffffff">penned by :Melvin George</p>
+            <a href="https://twitter.com/melvingeorge11"><img src="http://icons.iconarchive.com/icons/spoon-graphics/doodle/128/Twitter-icon.png"></a>
+            &nbsp;&nbsp;&nbsp;<a href="https://www.facebook.com/alkitj10"><img src="http://inc.anphicle.com/2012/01/facebook.png"></a>
+          </p>
+
+          &copy; Meak Inc.
+        </footer>
+        <script type="text/javascript" src="/ui/main.js"></script>
     </body>
 </html>
