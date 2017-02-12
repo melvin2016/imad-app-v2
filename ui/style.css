@@ -1,7 +1,16 @@
 body {
-    font-family: sans-serif;
-    background-color: lightgrey;
-    margin-top: 75px;
+    font-family: 'Baloo Bhai', cursive;
+    background-image: url(https://4.bp.blogspot.com/-6vN2EgZ29xU/VAi4ETlhVmI/AAAAAAABLes/QyA-KxNMXuM/s0/Inside%2Bthe%2Bgreen%2Bforest_Ultra%2BHD.jpg) ;
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+a{
+text-decoration: none;
+color:#e2d400;
+font-weight:bold;
+font-size: 40px;
+font-family: 'Amatic SC', cursive;
 }
 
 .center {
@@ -17,6 +26,137 @@ body {
 }
 
 .img-medium {
-    height: 200px;
+    height: 250px;
+    width:auto;
+    border-radius:60px;
+    margin-top: 20px;
+    border-color: black;
+    border-width:medium;
 }
 
+.container {
+    max-width:800px;
+    padding-top:100px;
+    margin:auto;
+
+    color:#DFD53F;
+}
+
+img{
+
+height:40px;
+width:45px;
+border-radius: 18px;
+
+}
+p{
+  text-align: center;
+  color:#cdc28b;
+  font-size: 20px;
+}
+
+h1{
+  text-align: center;
+  color: #e7ea91;
+
+}
+
+fieldset{
+    position:bottom;
+    padding-top:20px;
+    text-align: left;
+    color:#DFD53F;
+    font-weight: bold;
+
+}
+
+footer {
+    position:bottom;
+    bottom:0px;
+    width: 100%;
+    margin: 0;
+    padding-top:20px;
+    padding-bottom: 50px;
+    height: 100px;/* or however high you would like */
+    text-align: center;
+    color:#fffdee;
+    font-weight: bolder;
+}
+
+footer{
+  font-family:'Oswald';
+  color:#FF5722;
+
+}
+
+.footer{
+    text-align:center;
+    font-family:Oswald,sans-serif;
+    font-weight:bold;
+}
+.links ul {
+   list-style-type: none;
+   background-color: transparent;
+   position: fixed;
+   top: 0;
+  
+   
+
+}
+
+.links li {
+
+  float :left;
+  padding:4px;
+  
+}
+
+.links li a {
+
+  display : block;
+  padding: 8px;
+  background-color:transparent;
+}
+
+.links li a:hover {
+
+background-color:rgba(17, 17, 17, 0.42);
+}
+.links li a:active {
+    color:green;
+}
+.active {
+
+  background-color:rgba(0, 255, 0, 0.26);
+}
+
+input{
+
+  border:0;
+  padding:15px;
+  font-size:13px;
+  font-family: cursive;
+  border-radius: 55px;
+  font-weight: bolder;
+
+}
+button{
+
+  border:0;
+  padding:14px;
+  font-size:10px;
+  font-family: cursive;
+  border-radius: 55px;
+  font-weight: bolder;
+}
+input[type="submit"]{
+
+  border:0;
+  padding:10px;
+  font-size:13px;
+  font-family: cursive;
+  border-radius: 55px;
+  font-weight: bolder;
+  margin:0 1;
+
+}
